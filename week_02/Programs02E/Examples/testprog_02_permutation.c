@@ -79,29 +79,29 @@ int main(void)
    * What this wants it the following:
    * Take Calculate PA using iperm not perm.
    */
-   PA    = csr_permute(A, iperm, NULL);
-   csr_spy(PA, "PA.eps", 's');
-  // 3rd
-  AP    = csr_permute(A, NULL, perm);
-  csr_spy(AP, "AP.eps", 's');
-
-  PTA   = csr_permute(A, perm, NULL);
-  csr_spy(PTA, "PTA.eps", 's');
+    PA    = csr_permute(A, iperm, NULL);
+    csr_spy(PA, "PA.eps", 's');
+    // 3rd
+    AP    = csr_permute(A, NULL, perm);
+    csr_spy(AP, "AP.eps", 's');
+    //
+    PTA   = csr_permute(A, perm, NULL);
+    csr_spy(PTA, "PTA.eps", 's');
+    // //
+    APT   = csr_permute(A, NULL, iperm);
+    csr_spy(APT, "APT.eps", 's');
+  // //
+  // PAP   = csr_permute(A, iperm, perm);
+  // csr_spy(PAP,"PAP.eps",'s');
   //
-  APT   = csr_permute(A, NULL, iperm);
-  csr_spy(APT, "APT.eps", 's');
+  // PAPT  = csr_permute(A, iperm, iperm);
+  // csr_spy(PAPT, "PAPT.eps", 's');
   //
-  PAP   = csr_permute(A, iperm, perm);
-  csr_spy(PAP,"PAP.eps",'s');
-
-  PAPT  = csr_permute(A, iperm, iperm);
-  csr_spy(PAPT, "PAPT.eps", 's');
-
-  PTAP  = csr_permute(A, perm, perm);
-  csr_spy(PTAP, "PTAP.eps", 's');
+  // PTAP  = csr_permute(A, perm, perm);
+  // csr_spy(PTAP, "PTAP.eps", 's');
 
   PTAPT = csr_permute(A, perm, iperm);
-  csr_spy(PTAPT, "PTAPT.eps", 's');
+  // csr_spy(PTAPT, "PTAPT.eps", 's');
 
   /* output of permutation vectors */
   printf("Output of the permutation vectors:\n");
@@ -135,90 +135,34 @@ int main(void)
 
   printf("PA =\n");
   print_permuted_matrix(PA);
-  // for (i=0;i<3; i++)
-  // {
-  //   for (j=0;j<3; j++)
-  //     printf(" %g", PA->coeff[i*3+j]);
-  //
-  //   printf("\n");
-  // }
-  printf("\n");
 
+  printf("\n");
   printf("AP =\n");
   print_permuted_matrix(AP);
-  // for (i=0;i<3; i++)
-  // {
-  //   for (j=0;j<3; j++)
-  //     printf(" %g", AP->coeff[i*3+AP->col[j]]);
-  //
-  //   printf("\n");
-  // }
-  printf("\n");
 
+  printf("\n");
   printf("PTA =\n");
   print_permuted_matrix(PTA);
-  // for (i=0;i<3; i++)
-  // {
-  //   for (j=0;j<3; j++)
-  //     printf(" %g", PTA->coeff[i*3+j]);
-  //
-  //   printf("\n");
-  // }
-  printf("\n");
 
+  printf("\n");
   printf("APT =\n");
   print_permuted_matrix(APT);
-  // for (i=0;i<3; i++)
-  // {
-  //   for (j=0;j<3; j++)
-  //     printf(" %g", APT->coeff[i*3+APT->col[j]]);
-  //
-  //   printf("\n");
-  // }
-  printf("\n");
 
-  printf("PAP =\n");
-  print_permuted_matrix(PAP);
-  // for (i=0;i<3; i++)
-  // {
-  //   for (j=0;j<3; j++)
-  //     printf(" %g", PAP->coeff[i*3+PAP->col[j]]);
-  //
-  //   printf("\n");
-  // }
   printf("\n");
-
-  printf("PAPT =\n");
-  print_permuted_matrix(PAPT);
-  // for (i=0;i<3; i++)
-  // {
-  //   for (j=0;j<3; j++)
-  //     printf(" %g", PAPT->coeff[i*3+PAPT->col[j]]);
+  // printf("PAP =\n");
+  // print_permuted_matrix(PAP);
   //
-  //   printf("\n");
-  // }
-  printf("\n");
-
-  printf("PTAP =\n");
-  print_permuted_matrix(PTAP);
-  // for (i=0;i<3; i++)
-  // {
-  //   for (j=0;j<3; j++)
-  //     printf(" %g", PTAP->coeff[i*3+PTAP->col[j]]);
+  // printf("\n");
+  // printf("PAPT =\n");
+  // print_permuted_matrix(PAPT);
   //
-  //   printf("\n");
-  // }
-  printf("\n");
-
-  printf("PTAPT =\n");
-  print_permuted_matrix(PTAPT);
-  // for (i=0;i<3; i++)
-  // {
-  //   for (j=0;j<3; j++)
-  //     printf(" %g", PTAPT->coeff[i*3+PTAPT->col[j]]);
+  // printf("\n");
+  // printf("PTAP =\n");
+  // print_permuted_matrix(PTAP);
   //
-  //   printf("\n");
-  // }
+  // printf("\n");
+  // printf("PTAPT =\n");
+  // print_permuted_matrix(PTAPT);
   printf("\n");
 
   printf("Output of the permuted vectors:\n");

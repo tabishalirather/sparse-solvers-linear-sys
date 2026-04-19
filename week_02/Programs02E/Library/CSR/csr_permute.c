@@ -53,66 +53,100 @@ csr *csr_permute(csr *A, const int *pinv, const int *q)
     puts("------------------------Start csr_permnute-------------------------");
     printf("Print matrix_A below");
     print_matrix_csr(A);
-    if (q==NULL) {
-      printf("q is null\n");
+    // if (q==NULL) {
+    //   printf("q is null\n");
+    // }
+  //Can I print the matrix by columns. Select the col index in a row, and then skip by number of elements in the row and the print again.
+  // int s=0;
+  puts("Trying to print by column");
+  for (int s=0; s<A->nr; s++) {
+  for (int i=0; i<A->nr;i++) {
+
+    for (int j=A->row[i]+s; j<A->row[i]+s+1; j++) {
+      printf("%.1f ", A->coeff[j]);
     }
-    // // printf("pinv is: \n");
-    if (pinv != NULL) {
-      print_vec_2(3, pinv);
-    }else {
-      pinv = q;
-    }
-  if (pinv!=NULL && q==NULL) {
-    puts("This returns PA");
-  } else if (q!=NULL) {
-    puts("This returns AP");
   }
-    //apply above algorithm to A matrix now.
-    int k=0;
+    printf("\n");
+
+  }
+
+  /*for (int i=0; i<A->nc;i++) {
+    // int k=0;
+    for (int j=A->row[i]+1; j<A->row[i]+2; j++) {
+      printf("%.1f ", A->coeff[j]);
+    }
+  }
+  printf("\n");
+  for (int i=0; i<A->nc;i++) {
+    // int k=0;
+    for (int j=A->row[i]+2; j<A->row[i]+3; j++) {
+      printf("%.1f ", A->coeff[j]);
+    }
+  }*/
+  printf("\n");
+  printf("\n");
+
+  int k=0;
+  if (pinv!=NULL && q==NULL) {
+    puts("vector pinv is: ");
+    print_vec_2(3, pinv);
+    puts("This returns PA");
+    k=0;
+    int row_test_idx = 0;
+    for (int i=0; i<A->nr; i++) {
+      for (int j=A->row[pinv[i]]; j<A->row[pinv[i]+1]; j++) {
+        printf("\n");
+        B->row[0] = 0;
+        B->row[i+1] = row_test_idx++;
+        B->coeff[j] = A->coeff[k++];
+      }
+      B->row[i+1]++;
+    }
+    for (int i=0; i<A->nz; i++) {
+      B->col[i] = A->col[i];
+    }
+  }
+  else if (pinv == NULL && q!=NULL) {
+    //What we are saying now is that this should a column transpose, not a row transpose.
+    puts("vector q is: ");
+    print_vec_2(3, q);
+    puts("This returns AP");
     for (int i=0; i<A->nr;i++) {
-      for (int j=A->row[pinv[i]]; j<A->row[pinv[i]+1]; j++){
+      for (int j=A->row[q[i]]; j<A->row[q[i]+1]; j++){
         B->coeff[k++] = A->coeff[j];
         printf("%0.1f ", A->coeff[j]);       // printf(" (k,i):(%d,%d) ", k,i);
       }
       // printf(" (k: %d) ", k);
       B->row[0] = 0;
       B->row[i+1] = k;
-      printf("\n");
+      // printf("\n");
     }
     for (int i=0; i<A->nz; i++) {
       B->col[i] = A->col[i];
     }
+  }
+     //apply above algorithm to A matrix now.
+if (pinv != NULL ^ q!=NULL) {
 
-    /*// for (int i=0; i<3;i++) {
-    //   for (int j=A->row[pinv[i]]; j<A->row[pinv[i]+1]; j++){
-    //     B->coeff[k++] = A->coeff[j];
-    //     printf("%d ", B->coeff[k++]);
-    //   }
-    //   printf("\n");
-    // }*/
-    printf("permuted vector is: \n");
-    for (int i=0; i<A->nz; i++) {
-      printf("%.f ", B->coeff[i]);
-    }
-    printf("\n");
-    printf("permuted row is: \n");
-    for (int i=0; i<A->nr+1; i++) {
-      printf("%d ", B->row[i]);
-    }
-    printf("\n");
-    printf("permuted col is: \n");
-    for (int i=0; i<B->nz; i++) {
+  puts("B.coeff is:");
+  for (int i=0; i<B->nz;i++) {
+    printf("%.1f ", B->coeff[i]);
+  }
 
-      printf("%d ", B->col[i]);
-    }
-    printf("\n");
+  printf("\n");
+  puts("permuted_row is: ");
+  for (int i=0; i<=B->nr; i++) {
+    printf("%d ", B->row[i]);
+  }
 
-    //matrix permuted, now we need to figure out how to sort out the row variable to suit the matrix.
-    printf("Matrix B printed below");
-    print_matrix_csr(B);
-    puts("\n------------------------End   csr_permnute-------------------------");
-    return B;
+  printf("\n");
+  printf("Matrix B printed below");
+  print_matrix_csr(B);
+  puts("\n------------------------End   csr_permnute-------------------------");
+
   printf("**********************Outside pinv not null csr-permute****************************");
+}
+  return B;
 
 }
 csr *csr_perm(csr *A, perm_t *row_perm, perm_t *col_perm)
