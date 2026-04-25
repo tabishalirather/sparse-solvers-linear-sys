@@ -147,6 +147,36 @@ csr *csr_permute(csr *A, const int *pinv, const int *q) {
     for (int i=0; i<B->nz; i++) {
       printf("%f ", B->coeff[i]);
     }
+    // let's work on sorting elements of B.col now and simultaneously sort B.coeff as well
+    int to_sort_col[3]   = {5, 3, 4};
+    int to_sort_coeff[3] = {5, 4, 6};
+    // int sorted_col[3] = {0,0,0};
+    puts("\n Now working on sorting");
+    for (int i = 0; i < B->nr; i++) {
+
+      int start = B->row[i];
+      int end   = B->row[i + 1];
+
+      for (int j = start; j < end - 1; j++) {
+        for (int k = j + 1; k < end; k++) {
+
+          if (B->col[k] < B->col[j]) {
+
+            int temp_col = B->col[j];
+            B->col[j] = B->col[k];
+            B->col[k] = temp_col;
+
+            double temp_coeff = B->coeff[j];
+            B->coeff[j] = B->coeff[k];
+            B->coeff[k] = temp_coeff;
+          }
+        }
+      }
+      // printf("%d ", sorted_col[i]);
+    }
+    puts("sorted col is: \n");
+
+    print_vec_2(3, to_sort_col);
 
 
 
