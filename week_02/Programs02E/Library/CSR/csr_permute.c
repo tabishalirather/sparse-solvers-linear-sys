@@ -10,9 +10,11 @@ void print_matrix_csr(csr *matrix_p) {
   printf("\nPrinting in print_matrix_csr fxn\n");
 
   for (int i = 0; i < matrix_p->nr; i++) {
-    // printf("%d ", matrix_p->row[i]);
+    // printf("%d \n", matrix_p->row[i]);
     for (int j = matrix_p->row[i]; j < matrix_p->row[i + 1]; j++) {
       printf("%0.2f ", matrix_p->coeff[j]);
+      printf("%d ", matrix_p->col[j]);
+      // printf("\n(i,j):(%d,%d\n ", i, j);
     }
     printf("\n");
   }
@@ -75,14 +77,14 @@ csr *csr_permute(csr *A, const int *pinv, const int *q) {
   int to_sort[4] = {3, 4, 2, 1};
   int to_sort_sorted[4] = {0};
 
-  puts("Before sorting, the var sorted_col is: ");
-
-  printf("\n");
-
-  printf("\n");
-
-  printf("\n");
-  printf("\n");
+  // puts("Before sorting, the var sorted_col is: ");
+  //
+  // printf("\n");
+  //
+  // printf("\n");
+  //
+  // printf("\n");
+  // printf("\n");
 
   int k = 0;
   if (pinv != NULL && q == NULL) {
@@ -103,21 +105,50 @@ csr *csr_permute(csr *A, const int *pinv, const int *q) {
     for (int i = 0; i < A->nz; i++) {
       B->col[i] = A->col[i];
     }
-  } else if (pinv == NULL && q != NULL) {
+  }
+
+  else if (pinv == NULL && q != NULL) {
+    puts("This returns AP\n");
     //What we are saying now is that this should a column transpose, not a row transpose.
-    puts("vector q is: ");
+    puts("vector q is:");
     print_vec_2(3, q);
-    puts("B.coeff is:");
-    for (int i = 0; i < B->nz; i++) {
+
+    puts("A.col is:");
+    print_vec_2(A->nz, A->col);
+    // puts("B.coeff is:");
+    for (int i = 0; i < A->nz; i++) {
+      // printf("i is: %d ", i);
+      // printf("B.col[i] is: %d  ", B->col[i]);
       B->col[i] = q[A->col[i]];
-      printf("%.1f ", B->coeff[i]);
+      B->coeff[i] = A->coeff[i];
     }
+    for (int i=0; i<=B->nr; i++) {
+      B->row[i] = A->row[i];
+    }
+    printf("\n");
+    puts("B.row is: ");
+    for (int i=0; i<=B->nr; i++) printf("%d ", B->row[i]);
+
+    puts("\nA.row is: ");
+    for (int i=0; i<=A->nr; i++) printf("%d ", A->row[i]);
 
     printf("\n");
-    puts("col is: ");
-    for (int i = 0; i < B->nc; i++) {
+    puts("Permuted col: B.col[i]");
+    for (int i = 0; i < B->nz; i++) {
       printf("%d ", B->col[i]);
     }
+    printf("\n");
+    puts("Original col: A.col[i]");
+    for (int i = 0; i < A->nz; i++) {
+      printf("%d ", A->col[i]);
+    }
+    printf("\n");
+    puts("B.coeff[i] is:");
+    for (int i=0; i<B->nz; i++) {
+      printf("%f ", B->coeff[i]);
+    }
+
+
 
     printf("\n");
     printf("Matrix B printed below");
