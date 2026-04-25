@@ -10,6 +10,7 @@
 #include "itsolver.h"
 
 csr *csr_laplace1d(int n) {
+  printf("csr_laplace1d called\n");
   int n1, nnz;
   int i, p;
   double adiag, aoff;
@@ -18,27 +19,49 @@ csr *csr_laplace1d(int n) {
   n1 = n - 1;
   /* Compute the number of non-zeros nnz. */
   switch (n1) {
-  case 0:
-    nnz = 0;
-    break;
-  case 1:
-    nnz = 1;
-    break;
-  default:
-    nnz = 3 * (n1 - 2) + 4;
+    case 0:
+      nnz = 0;
+      break;
+    case 1:
+      nnz = 1;
+      break;
+    default:
+      nnz = 3 * (n1 - 2) + 4;
   }
   adiag = 2.0;
   aoff = -1.0;
   A = csr_alloc(n1, n1, nnz);
+  int temp_row[] = {0, 2, 5, 8};
   A->row[0] = 0;
   for (i = 0; i < n1; ++i) {
+    // printf("i: %d\n", i);
+    // A->row[i] = temp_row[i];
 
-  /* ******************************************************************** */
-  /*                                                                      */
-  /*     TODO --- Exercise (Sheet 3, Problem 3)                         */
-  /*                                                                      */
-  /* ******************************************************************** */  
-  
+
+    /* ******************************************************************** */
+    /*                                                                      */
+    /*     TODO --- Exercise (Sheet 3, Problem 3)                         */
+    /*                                                                      */
+    /* ******************************************************************** */
+    p = A->row[i];
+    int j = i-1;
+    if (j>=0) {
+      A->coeff[p] = aoff;
+      A->col[p] = j;
+      p++;
+    }
+
+    A->coeff[p] = adiag;
+    A->col[p] = i;
+
+    j = i+1;
+    if (j<n1) {
+      A->coeff[p] = aoff;
+      A->col[p] = j;
+      p++;
+    }
+    A->row[i+1]=p;
+
   }
   assert(p == nnz);
   assert(p == A->row[n1]);
@@ -79,9 +102,9 @@ csr *csr_laplace(int n, int d) {
     for (k = 0; k < d; ++k) {
       j = i - n1pow;
       if ((i / n1pow) % n1 > 0) {
-  A->coeff[p] = aoff;
-  A->col[p] = j;
-  ++p;
+        A->coeff[p] = aoff;
+        A->col[p] = j;
+        ++p;
       }
       n1pow /= n1;
     }
@@ -94,9 +117,9 @@ csr *csr_laplace(int n, int d) {
     for (k = 0; k < d; ++k) {
       j = i + n1pow;
       if ((i / n1pow) % n1 < n1 - 1) {
-  A->coeff[p] = aoff;
-  A->col[p] = j;
-  ++p;
+        A->coeff[p] = aoff;
+        A->col[p] = j;
+        ++p;
       }
       n1pow *= n1;
     }

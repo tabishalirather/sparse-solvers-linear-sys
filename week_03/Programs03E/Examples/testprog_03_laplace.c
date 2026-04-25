@@ -22,6 +22,7 @@ int main() {
   A = csr_laplace1d(n);
   filename = (char *) malloc(100);
   sprintf(filename, "testprog_03_myLaplace_1D.eps");
+  csr_ascii(A);
   csr_spy(A, filename, 's');
   free(filename);
   csr_free(A);
