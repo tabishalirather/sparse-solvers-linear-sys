@@ -8,6 +8,12 @@
 #include <stdlib.h>
 #include "itsolver.h"
 
+void print_permutation_vec(int n, int* vec) {
+  for (int i = 0; i < n; i++)
+    printf(" %d", vec[i] + 1);
+  printf("\n");
+}
+
 void print_permuted_matrix(csr *matrix) {
   for (int i = 0; i < 3; i++) {
     for (int j = 0; j < 3; j++)
@@ -71,7 +77,6 @@ int main(void) {
 
   /* produce color plots of all permuted matrices */
   csr_spy(A, "A.eps", 's');
-  //2nd
   /*
    * What this wants it the following:
    * Take Calculate PA using iperm not perm.
@@ -90,31 +95,27 @@ int main(void) {
   APT   = csr_permute(A, NULL, iperm);
   csr_spy(APT, "APT.eps", 's');
   //
-  // PAP   = csr_permute(A, iperm, perm);
-  // csr_spy(PAP,"PAP.eps",'s');
+  PAP   = csr_permute(A, iperm, perm);
+  csr_spy(PAP,"PAP.eps",'s');
   //
-  // PAPT  = csr_permute(A, iperm, iperm);
-  // csr_spy(PAPT, "PAPT.eps", 's');
+  PAPT  = csr_permute(A, iperm, iperm);
+  csr_spy(PAPT, "PAPT.eps", 's');
   //
-  // PTAP  = csr_permute(A, perm, perm);
-  // csr_spy(PTAP, "PTAP.eps", 's');
+  PTAP  = csr_permute(A, perm, perm);
+  csr_spy(PTAP, "PTAP.eps", 's');
   //
-  // PTAPT = csr_permute(A, perm, iperm);
-  // csr_spy(PTAPT, "PTAPT.eps", 's');
+  PTAPT = csr_permute(A, perm, iperm);
+  csr_spy(PTAPT, "PTAPT.eps", 's');
 
   /* output of permutation vectors */
   printf("Output of the permutation vectors:\n");
   printf("==================================\n");
 
   printf(" perm =");
-  for (i = 0; i < 3; i++)
-    printf(" %d", perm[i] + 1);
-  printf("\n");
+  print_permutation_vec(3, perm);
 
   printf("iperm =");
-  for (i = 0; i < 3; i++)
-    printf(" %d", iperm[i] + 1);
-  printf("\n");
+  print_permutation_vec(3, iperm);
 
   /* output of permuted matrices */
   printf("\n");
@@ -123,14 +124,6 @@ int main(void) {
 
   printf("A =\n");
   print_permuted_matrix(A);
-  // for (i=0;i<3; i++)
-  // {
-  //   for (j=0;j<3; j++)
-  //     printf(" %g", A->coeff[i*3+j]);
-  //
-  //   printf("\n");
-  // }
-  // printf("\n");
 
   printf("PA =\n");
   print_permuted_matrix(PA);
@@ -168,21 +161,15 @@ int main(void) {
   printf("===============================\n");
 
   printf("b   =");
-  for (i = 0; i < 3; i++)
-    printf(" %+g", b[i]);
-  printf("\n");
+  print_permuted_vector(b);
+
 
   printf("Pb  =");
   print_permuted_vector(Pb);
-  // for (i=0;i<3; i++)
-  //   printf(" %+g", Pb[i]);
-  // printf("\n");
 
   printf("PTb =");
   print_permuted_vector(PTb);
-  // for (i=0;i<3; i++)
-  //   printf(" %+g", PTb[i]);
-  // printf("\n\n");
+
 
   free(iperm);
 
