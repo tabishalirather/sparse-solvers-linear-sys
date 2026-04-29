@@ -31,40 +31,42 @@ csr *csr_laplace1d(int n) {
   adiag = 2.0;
   aoff = -1.0;
   A = csr_alloc(n1, n1, nnz);
-  int temp_row[] = {0, 2, 5, 8};
   A->row[0] = 0;
+  A->col[0] = 0;
   for (i = 0; i < n1; ++i) {
-    // printf("i: %d\n", i);
-    // A->row[i] = temp_row[i];
-
 
     /* ******************************************************************** */
     /*                                                                      */
     /*     TODO --- Exercise (Sheet 3, Problem 3)                         */
     /*                                                                      */
     /* ******************************************************************** */
-    p = A->row[i];
-    int j = i-1;
-    if (j>=0) {
-      A->coeff[p] = aoff;
-      A->col[p] = j;
-      p++;
-    }
-
-    A->coeff[p] = adiag;
-    A->col[p] = i;
-
-    j = i+1;
-    if (j<n1) {
-      A->coeff[p] = aoff;
-      A->col[p] = j;
-      p++;
-    }
-    A->row[i+1]=p;
-
+  //The goal is to create tri-diagonal matrices with 2 on diagonal and -1 on off diagonal but in CSR format.
+    /* For example, for a 4*4 matrix of this type
+     * [
+     * 2 -1  0  0
+     * -1 2 -1  0
+     * 0 -1  2 -1
+     * 0  0 -1  2
+     */
+    //Let's fill diagonal elements first. In csr format,
+    //Col will be like  0, 1, 2, 3, ....n and row will be 0,1,2,3,... with coeff = 2,2,2,2,...
+    A->coeff[i] = 2;
+    A->row[i] += i;
+    A->row[n1] = i+1;
+    A->col[i] += i;
   }
-  assert(p == nnz);
-  assert(p == A->row[n1]);
+
+
+  printf("%d \n", n1);
+  puts("Matrix A is: ");
+  for (int i=0; i < n1; i++) {
+    for (int j=A->row[i]; j<A->row[i+1]; j++) {
+      printf("%f ", A->coeff[j]);
+    }
+    printf("\n");
+  }
+  // assert(p == nnz);
+  // assert(p == A->row[n1]);
   return A;
 }
 
