@@ -63,6 +63,7 @@ int main()
         /* ************************************ */
 
         // TODO: Set up the Tridiagonal matrix.
+        // TODO: Get first and last row out of the for loop and then we only  need one for loop.
         int nr = 4;
         int nc = 4;
         int nz = 3*nr-2;
