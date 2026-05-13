@@ -17,7 +17,6 @@ int main() {
 
   /* Fill in coefficients and column indices. */
   A->row[0] = 0;
-
   /* First row. */
   A->coeff[0] = 3.0;
   A->col[0] = 1;

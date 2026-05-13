@@ -60,6 +60,7 @@ csr *csr_laplace1d(int n) {
 }
 
 csr *csr_laplace(int n, int d) {
+  puts("Printing from csr_laplace fxn");
   int n1, nd, nnz;
   int i, j;
   int n1pow;

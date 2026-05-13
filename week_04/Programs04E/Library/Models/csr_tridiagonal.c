@@ -13,6 +13,7 @@
 csr *csr_tridiagonal(int n, double alpha)
 {
     csr *A;
+
     int nnz;
 
     // First and last row with two entries,
