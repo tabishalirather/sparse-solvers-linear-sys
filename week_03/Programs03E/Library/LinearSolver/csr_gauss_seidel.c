@@ -44,7 +44,17 @@ void csr_gauss_seidel(
     /*  Gauß-Seidel method.                      */
     /*                                      */
     /* ************************************ */
-    
+
+    for (int i=0; i<n; i++) {
+      for (int j=A->row[i]; j<A->row[i+1]; j++) {
+        if (A->col[j] != i) {
+          r[i] = r[i] - (A->coeff[j]*x[A->col[j]]);
+        }
+        if (A->col[j] == i){
+          x[i] += r[i] / A->coeff[j];
+        }
+      }
+    }
     /* Compute new residual. */
     vec_copy(n, b, r);
     csr_mv(A, -1.0, x, 1.0, r);
