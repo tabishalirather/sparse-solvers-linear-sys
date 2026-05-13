@@ -28,45 +28,107 @@ csr *csr_laplace1d(int n) {
     default:
       nnz = 3 * (n1 - 2) + 4;
   }
-  adiag = 2.0;
-  aoff = -1.0;
+  adiag = 3.0;
+  // aoff = -1.0;
   A = csr_alloc(n1, n1, nnz);
   A->row[0] = 0;
   A->col[0] = 0;
-  for (i = 0; i < n1; ++i) {
+  int nr = n;
 
-    /* ******************************************************************** */
-    /*                                                                      */
-    /*     TODO --- Exercise (Sheet 3, Problem 3)                         */
-    /*                                                                      */
-    /* ******************************************************************** */
+  // for (i = 0; i < n1; ++i) {
+
+  /* ******************************************************************** */
+  /*                                                                      */
+  /*     TODO --- Exercise (Sheet 3, Problem 3)                         */
+  /*                                                                      */
+  /* ******************************************************************** */
   //The goal is to create tri-diagonal matrices with 2 on diagonal and -1 on off diagonal but in CSR format.
-    /* For example, for a 4*4 matrix of this type
-     * [
-     * 2 -1  0  0
-     * -1 2 -1  0
-     * 0 -1  2 -1
-     * 0  0 -1  2
-     */
-    //Let's fill diagonal elements first. In csr format,
-    //Col will be like  0, 1, 2, 3, ....n and row will be 0,1,2,3,... with coeff = 2,2,2,2,...
-    A->coeff[i] = 2;
-    A->row[i] += i;
-    A->row[n1] = i+1;
-    A->col[i] += i;
+  /* For example, for a 4*4 matrix of this type
+   * [
+   * 2 -1  0  0
+   * -1 2 -1  0
+   * 0 -1  2 -1
+   * 0  0 -1  2
+   */
+  //Let's fill diagonal elements first. In csr format,
+  //Col will be like  0, 1, 2, 3, ....n and row will be 0,1,2,3,... with coeff = 2,2,2,2,...
+  // A->row[0] = 0;
+
+  // int col[10] = {0, 1, 0, 1, 2, 1, 2, 3, 2, 3};
+  // double coeff[10] = {2, 3, 1, 2, 3, 1, 2, 3, 1, 2};
+  double main = adiag;
+  puts("populating the tridiagonal matrix");
+  for (int i = 1; i <= nr; i++) {
+    if (i == 1 ^ i == nr)
+      A->row[i] = A->row[i - 1] + 2;
+    else {
+      A->row[i] = A->row[i - 1] + 3;
+    }
+  }
+
+  // for (int j = 0; j <= nr; j++) {
+  //   printf("%d ", A->row[j]);
+  // }
+  puts("row matrix setup");
+  for (int i = 0; i <= A->nr; i++) {
+    // printf("running inside the for loop");
+    for (int j = A->row[i]; j < A->row[i + 1]; j++) {
+      double lower = -1;
+      double upper = -1;
+      // printf("running inside the j for loop");
+      if (i == 0) {
+        //this means first row, i.e. fill main and upper diagonal.
+        if (j == A->row[i]) {
+          //then we are filling the first element
+          A->coeff[j] = main;
+          // The general pattern for filling columns in i-1, i, i+1
+          A->col[j] = i; // index of first nz col
+        } else if (j == A->row[i] + 1) {
+          //then we are filling the second element
+          A->coeff[j] = upper;
+          A->col[j] = i + 1; //index of second nz col.
+        }
+      } else if (i + 1 == A->nr) {
+        //this means last row, i.e. fill lower and main diagonal.
+        if (j == A->row[i]) {
+          //then we are filling the first element
+          A->coeff[j] = lower;
+          A->col[j] = i - 1;
+        } else if (j == A->row[i] + 1) {
+          //then we are filling the second element
+          A->coeff[j] = main;
+          A->col[j] = i;
+        }
+      } else {
+        //fill lower, then main and then upper diagonal.
+        if (j == A->row[i]) {
+          //then we are filling the first element
+          A->coeff[j] = lower;
+          A->col[j] = i - 1;
+        } else if (j == A->row[i] + 1) {
+          //then we are filling the second element
+          A->coeff[j] = main;
+          A->col[j] = i;
+        } else if (j == A->row[i] + 2) {
+          //then we are filling the second element
+          A->coeff[j] = upper;
+          A->col[j] = i + 1;
+        }
+      }
+    }
   }
 
 
   printf("%d \n", n1);
-  puts("Matrix A is: ");
-  for (int i=0; i < n1; i++) {
-    for (int j=A->row[i]; j<A->row[i+1]; j++) {
+  puts("Matrix A is in week3 csr laplace: ");
+  for (int i = 0; i < n1; i++) {
+    for (int j = A->row[i]; j < A->row[i + 1]; j++) {
       printf("%f ", A->coeff[j]);
     }
     printf("\n");
   }
-  // assert(p == nnz);
-  // assert(p == A->row[n1]);
+  assert(p == nnz);
+  assert(p == A->row[n1]);
   return A;
 }
 

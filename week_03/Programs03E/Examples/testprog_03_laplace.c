@@ -35,6 +35,7 @@ int main() {
     free(filename);
     csr_free(A);
   }
+  // free(A);
 
   return 0;
 }

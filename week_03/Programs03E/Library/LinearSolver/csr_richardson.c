@@ -2,6 +2,30 @@
  * Jens-Peter Zemke
  * Sabine Le Borne
 */
+/*
+ * Richardson Method for solving Ax = b
+ *
+ * The iteration formula is:
+ *   x_new = x_old + omega * (b - A*x_old)
+ * where (b - A*x) is the residual vector
+ *
+ * Two stopping criteria:
+ *
+ * NORES (No Residual check):
+ *   - Just run maxit iterations, don't check anything
+ *   - Fast but you don't know how good the solution is
+ *
+ * RELRES (Relative Residual):
+ *   - Compute residual at each iteration
+ *   - Stop early when: (current residual) / (initial residual) < tolerance
+ *   - Smarter because it accounts for how bad the initial guess was
+ *
+ * Outputs:
+ *   - x: the approximate solution (updated)
+ *   - iter: which iteration we stopped at
+ *   - esterr: final relative error (final residual / initial residual)
+ *   - errvec: array storing all residual norms (RELRES only)
+ */
 
 #include "itsolver.h"
 
