@@ -1,0 +1,332 @@
+[
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/CSR/csr.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/CSR/csr.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/CSR/csr_arith.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_arith.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_arith.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/CSR/csr_arith.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/CSR/csr_ascii.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_ascii.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_ascii.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/CSR/csr_ascii.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/CSR/csr_mindeg_startnode.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_mindeg_startnode.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_mindeg_startnode.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/CSR/csr_mindeg_startnode.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/CSR/csr_mv.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_mv.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_mv.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/CSR/csr_mv.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/CSR/csr_norm.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_norm.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_norm.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/CSR/csr_norm.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/CSR/csr_permute.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_permute.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_permute.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/CSR/csr_permute.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/CSR/csr_spy.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_spy.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_spy.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/CSR/csr_spy.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/CSR/csr_test_ordering.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_test_ordering.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_test_ordering.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/CSR/csr_test_ordering.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/CSR/csr_transpose.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_transpose.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_transpose.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/CSR/csr_transpose.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/CSR/csr_vm.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_vm.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/csr_vm.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/CSR/csr_vm.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/CSR/vec.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/vec.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/CSR/vec.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/CSR/vec.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/LinearSolver/csr_gauss_seidel.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/LinearSolver/csr_gauss_seidel.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/LinearSolver/csr_gauss_seidel.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/LinearSolver/csr_gauss_seidel.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/LinearSolver/csr_gauss_seidel_reverse.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/LinearSolver/csr_gauss_seidel_reverse.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/LinearSolver/csr_gauss_seidel_reverse.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/LinearSolver/csr_gauss_seidel_reverse.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/LinearSolver/csr_jacobi.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/LinearSolver/csr_jacobi.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/LinearSolver/csr_jacobi.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/LinearSolver/csr_jacobi.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/LinearSolver/csr_richardson.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/LinearSolver/csr_richardson.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/LinearSolver/csr_richardson.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/LinearSolver/csr_richardson.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/LinearSolver/csr_sgs.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/LinearSolver/csr_sgs.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/LinearSolver/csr_sgs.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/LinearSolver/csr_sgs.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/LinearSolver/csr_sor.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/LinearSolver/csr_sor.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/LinearSolver/csr_sor.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/LinearSolver/csr_sor.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/LinearSolver/csr_ssor.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/LinearSolver/csr_ssor.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/LinearSolver/csr_ssor.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/LinearSolver/csr_ssor.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/LinearSolver/prec.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/LinearSolver/prec.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/LinearSolver/prec.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/LinearSolver/prec.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/Models/csr_convection_diffusion.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Models/csr_convection_diffusion.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Models/csr_convection_diffusion.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/Models/csr_convection_diffusion.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/Models/csr_import_copy.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Models/csr_import copy.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Models/csr_import copy.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/Models/csr_import_copy.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/Models/csr_import.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Models/csr_import.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Models/csr_import.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/Models/csr_import.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/Models/csr_laplace.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Models/csr_laplace.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Models/csr_laplace.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/Models/csr_laplace.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/Models/csr_testmatrices.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Models/csr_testmatrices.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Models/csr_testmatrices.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/Models/csr_testmatrices.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/Models/csr_tridiagonal.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Models/csr_tridiagonal.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Models/csr_tridiagonal.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/Models/csr_tridiagonal.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/Models/mmio_copy.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Models/mmio copy.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Models/mmio copy.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/Models/mmio_copy.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/Models/mmio.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Models/mmio.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Models/mmio.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/Models/mmio.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/Permutations/perm.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Permutations/perm.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Permutations/perm.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/Permutations/perm.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/Permutations/perm_level_set.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Permutations/perm_level_set.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Permutations/perm_level_set.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/Permutations/perm_level_set.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/Permutations/sort_degree.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Permutations/sort_degree.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Permutations/sort_degree.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/Permutations/sort_degree.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/Plot/conv_plot.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Plot/conv_plot.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Plot/conv_plot.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/Plot/conv_plot.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/Plot/convplot_steps.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Plot/convplot_steps.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/Plot/convplot_steps.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/Plot/convplot_steps.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_bicg.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/KrylovSolver/csr_bicg.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/KrylovSolver/csr_bicg.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_bicg.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_bicgstab.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/KrylovSolver/csr_bicgstab.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/KrylovSolver/csr_bicgstab.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_bicgstab.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_cg.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/KrylovSolver/csr_cg.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/KrylovSolver/csr_cg.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_cg.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_cgs.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/KrylovSolver/csr_cgs.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/KrylovSolver/csr_cgs.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_cgs.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_gmres.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/KrylovSolver/csr_gmres.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/KrylovSolver/csr_gmres.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_gmres.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_pcg.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/KrylovSolver/csr_pcg.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/KrylovSolver/csr_pcg.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_pcg.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_projection.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/KrylovSolver/csr_projection.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/KrylovSolver/csr_projection.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_projection.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Library/CMakeFiles/itsolver.dir/KrylovSolver/givens.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/KrylovSolver/givens.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library/KrylovSolver/givens.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CMakeFiles/itsolver.dir/KrylovSolver/givens.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Examples/CMakeFiles/testprog_01_csr.dir/testprog_01_csr.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_01_csr.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_01_csr.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Examples/CMakeFiles/testprog_01_csr.dir/testprog_01_csr.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Examples/CMakeFiles/testprog_01_mv.dir/testprog_01_mv.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_01_mv.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_01_mv.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Examples/CMakeFiles/testprog_01_mv.dir/testprog_01_mv.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Examples/CMakeFiles/testprog_01_transpose.dir/testprog_01_transpose.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_01_transpose.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_01_transpose.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Examples/CMakeFiles/testprog_01_transpose.dir/testprog_01_transpose.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Examples/CMakeFiles/testprog_02_permutation.dir/testprog_02_permutation.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_02_permutation.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_02_permutation.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Examples/CMakeFiles/testprog_02_permutation.dir/testprog_02_permutation.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Examples/CMakeFiles/testprog_02_reorder_output.dir/testprog_02_reorder_output.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_02_reorder_output.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_02_reorder_output.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Examples/CMakeFiles/testprog_02_reorder_output.dir/testprog_02_reorder_output.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Examples/CMakeFiles/testprog_03_laplace.dir/testprog_03_laplace.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_03_laplace.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_03_laplace.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Examples/CMakeFiles/testprog_03_laplace.dir/testprog_03_laplace.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Examples/CMakeFiles/testprog_03_linearSolver.dir/testprog_03_linearSolver.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_03_linearSolver.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_03_linearSolver.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Examples/CMakeFiles/testprog_03_linearSolver.dir/testprog_03_linearSolver.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Examples/CMakeFiles/testprog_04_convection_diffusion.dir/testprog_04_convection_diffusion.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_04_convection_diffusion.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_04_convection_diffusion.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Examples/CMakeFiles/testprog_04_convection_diffusion.dir/testprog_04_convection_diffusion.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Examples/CMakeFiles/testprog_04_richardson.dir/testprog_04_richardson.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_04_richardson.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_04_richardson.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Examples/CMakeFiles/testprog_04_richardson.dir/testprog_04_richardson.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Examples/CMakeFiles/testprog_04_tridiagonal.dir/testprog_04_tridiagonal.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_04_tridiagonal.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_04_tridiagonal.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Examples/CMakeFiles/testprog_04_tridiagonal.dir/testprog_04_tridiagonal.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Examples/CMakeFiles/testprog_06_projection.dir/testprog_06_projection.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_06_projection.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_06_projection.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Examples/CMakeFiles/testprog_06_projection.dir/testprog_06_projection.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Examples/CMakeFiles/testprog_07_cg.dir/testprog_07_cg.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_07_cg.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_07_cg.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Examples/CMakeFiles/testprog_07_cg.dir/testprog_07_cg.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Examples/CMakeFiles/testprog_08_cg_rhs.dir/testprog_08_cg_rhs.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_08_cg_rhs.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_08_cg_rhs.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Examples/CMakeFiles/testprog_08_cg_rhs.dir/testprog_08_cg_rhs.c.o"
+},
+{
+  "directory": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+  "command": "/usr/bin/cc -I\"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Library\" -Wall -Wextra -Wno-unused-function -O3 -g -fdiagnostics-color=always -o Examples/CMakeFiles/testprog_08_import_from_mm.dir/testprog_08_import_from_mm.c.o -c \"/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_08_import_from_mm.c\"",
+  "file": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/Examples/testprog_08_import_from_mm.c",
+  "output": "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Examples/CMakeFiles/testprog_08_import_from_mm.dir/testprog_08_import_from_mm.c.o"
+}
+]

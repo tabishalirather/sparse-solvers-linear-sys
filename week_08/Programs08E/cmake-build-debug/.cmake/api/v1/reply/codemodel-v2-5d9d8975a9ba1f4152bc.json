@@ -1,0 +1,300 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						8
+					],
+					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Library",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-Library-Debug-c57fbc7d2d2eb11a1dc8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Library",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Library/CSR",
+					"jsonFile" : "directory-Library.CSR-Debug-df94c36d3b13273bfbd8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Library/CSR"
+				},
+				{
+					"build" : "Library/LinearSolver",
+					"jsonFile" : "directory-Library.LinearSolver-Debug-c48a3875e367e84de7d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Library/LinearSolver"
+				},
+				{
+					"build" : "Library/Models",
+					"jsonFile" : "directory-Library.Models-Debug-e76eb6274ff4457add1c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Library/Models"
+				},
+				{
+					"build" : "Library/Permutations",
+					"jsonFile" : "directory-Library.Permutations-Debug-41d3aa2bc59083bbc285.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Library/Permutations"
+				},
+				{
+					"build" : "Library/Plot",
+					"jsonFile" : "directory-Library.Plot-Debug-2ab34ff924da4a1bbd88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Library/Plot"
+				},
+				{
+					"build" : "Library/KrylovSolver",
+					"jsonFile" : "directory-Library.KrylovSolver-Debug-f2b48604da9818add002.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Library/KrylovSolver"
+				},
+				{
+					"build" : "Examples",
+					"jsonFile" : "directory-Examples-Debug-d628f0add4c1a298deaa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Examples",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "Itsolver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "itsolver::@93d2bb52277f685ac18a",
+					"jsonFile" : "target-itsolver-Debug-5dcbb8179d5bbd40955f.json",
+					"name" : "itsolver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "testprog_01_csr::@e67388b41b83090ac410",
+					"jsonFile" : "target-testprog_01_csr-Debug-bec2e148acd2473016af.json",
+					"name" : "testprog_01_csr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "testprog_01_mv::@e67388b41b83090ac410",
+					"jsonFile" : "target-testprog_01_mv-Debug-780828ee5b7f55435efb.json",
+					"name" : "testprog_01_mv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "testprog_01_transpose::@e67388b41b83090ac410",
+					"jsonFile" : "target-testprog_01_transpose-Debug-a84cd1abc21fcbed68f6.json",
+					"name" : "testprog_01_transpose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "testprog_02_permutation::@e67388b41b83090ac410",
+					"jsonFile" : "target-testprog_02_permutation-Debug-451d17d2c8733e442492.json",
+					"name" : "testprog_02_permutation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "testprog_02_reorder_output::@e67388b41b83090ac410",
+					"jsonFile" : "target-testprog_02_reorder_output-Debug-386d73408bc2b3876cf4.json",
+					"name" : "testprog_02_reorder_output",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "testprog_03_laplace::@e67388b41b83090ac410",
+					"jsonFile" : "target-testprog_03_laplace-Debug-0389de13652d7646dfa5.json",
+					"name" : "testprog_03_laplace",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "testprog_03_linearSolver::@e67388b41b83090ac410",
+					"jsonFile" : "target-testprog_03_linearSolver-Debug-036d2f46684a419a0518.json",
+					"name" : "testprog_03_linearSolver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "testprog_04_convection_diffusion::@e67388b41b83090ac410",
+					"jsonFile" : "target-testprog_04_convection_diffusion-Debug-c84bb30e458470264300.json",
+					"name" : "testprog_04_convection_diffusion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "testprog_04_richardson::@e67388b41b83090ac410",
+					"jsonFile" : "target-testprog_04_richardson-Debug-e499ec1a7de8aa6bfee9.json",
+					"name" : "testprog_04_richardson",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "testprog_04_tridiagonal::@e67388b41b83090ac410",
+					"jsonFile" : "target-testprog_04_tridiagonal-Debug-ec9437a45ad51b9ea4c6.json",
+					"name" : "testprog_04_tridiagonal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "testprog_06_projection::@e67388b41b83090ac410",
+					"jsonFile" : "target-testprog_06_projection-Debug-c814db0ab92d5a0898f2.json",
+					"name" : "testprog_06_projection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "testprog_07_cg::@e67388b41b83090ac410",
+					"jsonFile" : "target-testprog_07_cg-Debug-d028e8f257eae25433dc.json",
+					"name" : "testprog_07_cg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "testprog_08_cg_rhs::@e67388b41b83090ac410",
+					"jsonFile" : "target-testprog_08_cg_rhs-Debug-28f42ef4213d0e660484.json",
+					"name" : "testprog_08_cg_rhs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "testprog_08_import_from_mm::@e67388b41b83090ac410",
+					"jsonFile" : "target-testprog_08_import_from_mm-Debug-27470f13fc444b710bc1.json",
+					"name" : "testprog_08_import_from_mm",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug",
+		"source" : "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

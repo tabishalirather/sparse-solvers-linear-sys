@@ -1,0 +1,63 @@
+# ninja log v7
+11	98	1781361592198532000	build.ninja	82ed1f1a3f8f9f51
+11	98	1781361592198532000	/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/cmake_install.cmake	82ed1f1a3f8f9f51
+11	98	1781361592198532000	/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/cmake_install.cmake	82ed1f1a3f8f9f51
+11	98	1781361592198532000	/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/CSR/cmake_install.cmake	82ed1f1a3f8f9f51
+11	98	1781361592198532000	/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/LinearSolver/cmake_install.cmake	82ed1f1a3f8f9f51
+11	98	1781361592198532000	/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/Models/cmake_install.cmake	82ed1f1a3f8f9f51
+11	98	1781361592198532000	/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/Permutations/cmake_install.cmake	82ed1f1a3f8f9f51
+11	98	1781361592198532000	/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/Plot/cmake_install.cmake	82ed1f1a3f8f9f51
+11	98	1781361592198532000	/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Library/KrylovSolver/cmake_install.cmake	82ed1f1a3f8f9f51
+11	98	1781361592198532000	/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Examples/cmake_install.cmake	82ed1f1a3f8f9f51
+11	98	1781361592198532000	/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/CTestTestfile.cmake	82ed1f1a3f8f9f51
+11	98	1781361592198532000	/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug/Examples/CTestTestfile.cmake	82ed1f1a3f8f9f51
+7	112	1781361592233348600	Library/CMakeFiles/itsolver.dir/CSR/csr_mindeg_startnode.c.o	adf8d5b763661f24
+7	124	1781361592232870600	Library/CMakeFiles/itsolver.dir/CSR/csr_ascii.c.o	c1b8ece0c7b24f38
+8	125	1781361592233822100	Library/CMakeFiles/itsolver.dir/CSR/csr_mv.c.o	cf2d6e04362ae4fd
+10	126	1781361592235826700	Library/CMakeFiles/itsolver.dir/CSR/csr_test_ordering.c.o	3dac9de72f3a9c14
+10	127	1781361592236556800	Library/CMakeFiles/itsolver.dir/CSR/csr_vm.c.o	86551f3c1644b3b4
+12	128	1781361592238530100	Library/CMakeFiles/itsolver.dir/LinearSolver/csr_gauss_seidel_reverse.c.o	a08bdb0fc6dd9036
+9	137	1781361592235110500	Library/CMakeFiles/itsolver.dir/CSR/csr_permute.c.o	239073ae7e99eb75
+8	139	1781361592234250000	Library/CMakeFiles/itsolver.dir/CSR/csr_norm.c.o	63246dcde7be6793
+10	140	1781361592236149600	Library/CMakeFiles/itsolver.dir/CSR/csr_transpose.c.o	64fe67c4bffeac8b
+9	147	1781361592235480800	Library/CMakeFiles/itsolver.dir/CSR/csr_spy.c.o	60a7f8db1da70480
+11	155	1781361592237666500	Library/CMakeFiles/itsolver.dir/LinearSolver/csr_gauss_seidel.c.o	fc1712cab9b087e0
+11	218	1781361592237168900	Library/CMakeFiles/itsolver.dir/CSR/vec.c.o	33c35c08858446ea
+124	225	1781361592350099500	Library/CMakeFiles/itsolver.dir/LinearSolver/csr_richardson.c.o	e59cba5a1fe2608b
+123	257	1781361592349288400	Library/CMakeFiles/itsolver.dir/LinearSolver/csr_jacobi.c.o	f2f2ed0ac356e178
+141	299	1781361592367142800	Library/CMakeFiles/itsolver.dir/Models/csr_import.c.o	a47f84241fcb3ebe
+125	314	1781361592351508600	Library/CMakeFiles/itsolver.dir/LinearSolver/csr_sgs.c.o	33a7a89b23d39020
+155	321	1781361592381583500	Library/CMakeFiles/itsolver.dir/Models/csr_testmatrices.c.o	aa515b400e86dd80
+5	326	1781361592231707300	Library/CMakeFiles/itsolver.dir/CSR/csr.c.o	673a840feab027f6
+139	328	1781361592365556900	Library/CMakeFiles/itsolver.dir/Models/csr_import_copy.c.o	8a6c459a9d5c8868
+223	330	1781361592449489300	Library/CMakeFiles/itsolver.dir/Models/csr_tridiagonal.c.o	b38ba7de31bc0462
+126	335	1781361592352241200	Library/CMakeFiles/itsolver.dir/LinearSolver/csr_sor.c.o	de7e7a629bc4dd06
+151	382	1781361592377109200	Library/CMakeFiles/itsolver.dir/Models/csr_laplace.c.o	3b2e0cb82cd7fdc0
+137	386	1781361592363544300	Library/CMakeFiles/itsolver.dir/Models/csr_convection_diffusion.c.o	8ec97918e4e7ec83
+257	431	1781361592483422600	Library/CMakeFiles/itsolver.dir/Models/mmio.c.o	7ef3c0d6c7d40c40
+322	434	1781361592548953700	Library/CMakeFiles/itsolver.dir/Permutations/sort_degree.c.o	bc75d0dd2757fd28
+128	445	1781361592354074100	Library/CMakeFiles/itsolver.dir/LinearSolver/prec.c.o	5d2c987f45367fff
+331	469	1781361592557662500	Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_bicg.c.o	68ec7ce10488191a
+387	475	1781361592614991200	Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_cgs.c.o	3e1b772341f72a52
+326	483	1781361592552744200	Library/CMakeFiles/itsolver.dir/Plot/conv_plot.c.o	1e0bee0e12536d5a
+335	484	1781361592561234200	Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_bicgstab.c.o	a69aab36faf57759
+225	494	1781361592452417900	Library/CMakeFiles/itsolver.dir/Models/mmio_copy.c.o	d601ef68a2a16f7e
+300	499	1781361592525881800	Library/CMakeFiles/itsolver.dir/Permutations/perm.c.o	748ba2d1cf6f4123
+127	506	1781361592353275000	Library/CMakeFiles/itsolver.dir/LinearSolver/csr_ssor.c.o	1839a7edf50c4a34
+383	545	1781361592608871400	Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_cg.c.o	b005c51768eeddb4
+434	548	1781361592660748800	Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_pcg.c.o	624e4313de7ef548
+6	551	1781361592232351700	Library/CMakeFiles/itsolver.dir/CSR/csr_arith.c.o	a76d237e520d5e8
+317	587	1781361592544233800	Library/CMakeFiles/itsolver.dir/Permutations/perm_level_set.c.o	d403ecd9a5ca179d
+329	607	1781361592555298800	Library/CMakeFiles/itsolver.dir/Plot/convplot_steps.c.o	a53df867619f87a0
+469	621	1781361592695203500	Library/CMakeFiles/itsolver.dir/KrylovSolver/givens.c.o	e57687b301e74ee7
+446	637	1781361592672654600	Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_projection.c.o	2d81fccbf509ec55
+475	637	1781361592701319000	Examples/CMakeFiles/testprog_08_cg_rhs.dir/testprog_08_cg_rhs.c.o	208e53cb9d6fa2a8
+431	669	1781361592657392200	Library/CMakeFiles/itsolver.dir/KrylovSolver/csr_gmres.c.o	6e723bda433fadd6
+669	792	1781361592895355100	Library/libitsolver.a	a7f70f7f43d52e6d
+793	835	1781361593019066400	Examples/testprog_08_cg_rhs	419413e754cd51dc
+9	99	1781362248092739300	Examples/CMakeFiles/testprog_07_cg.dir/testprog_07_cg.c.o	3d5b75ccc00dcd79
+99	128	1781362248183120100	Examples/testprog_07_cg	bf14bcfeae6c1bde
+7	77	1781362541276569700	Examples/CMakeFiles/testprog_08_cg_rhs.dir/testprog_08_cg_rhs.c.o	208e53cb9d6fa2a8
+78	99	1781362541347612000	Examples/testprog_08_cg_rhs	419413e754cd51dc
+7	76	1781362588199626900	Examples/CMakeFiles/testprog_08_cg_rhs.dir/testprog_08_cg_rhs.c.o	208e53cb9d6fa2a8
+76	97	1781362588269342600	Examples/testprog_08_cg_rhs	419413e754cd51dc

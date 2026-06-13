@@ -1,0 +1,19 @@
+/home/t_ali/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/t_ali/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E" -B "/mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug"
+CMake Deprecation Warning at CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- The C compiler identification is GNU 16.1.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /mnt/36C22184C2214987/Coursework/TUHH/SC&P/Solvers for Sparse Linear Systems/Code/week_08/Programs08E/cmake-build-debug
