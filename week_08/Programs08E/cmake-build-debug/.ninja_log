@@ -61,3 +61,7 @@
 78	99	1781362541347612000	Examples/testprog_08_cg_rhs	419413e754cd51dc
 7	76	1781362588199626900	Examples/CMakeFiles/testprog_08_cg_rhs.dir/testprog_08_cg_rhs.c.o	208e53cb9d6fa2a8
 76	97	1781362588269342600	Examples/testprog_08_cg_rhs	419413e754cd51dc
+21	110	1782202285779283200	Examples/CMakeFiles/testprog_08_import_from_mm.dir/testprog_08_import_from_mm.c.o	5947bde1feaa940f
+111	161	1782202285868589500	Examples/testprog_08_import_from_mm	f4ade12310abb947
+10	69	1782202757771475100	Examples/CMakeFiles/testprog_08_import_from_mm.dir/testprog_08_import_from_mm.c.o	5947bde1feaa940f
+69	107	1782202757830635200	Examples/testprog_08_import_from_mm	f4ade12310abb947
